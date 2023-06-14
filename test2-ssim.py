@@ -228,15 +228,9 @@ with torch.no_grad():
     print("MAE_C, average mae:", np.mean(mae_c))
 
 
-            # writer.add_scalars("PSNR_S", {"average psnr": np.mean(psnr_s)}, i_epoch)
-            # writer.add_scalars("PSNR_C", {"average psnr": np.mean(psnr_c)}, i_epoch)
-        # print("PSNR_S, average psnr:", np.mean(psnr_s))
-        # print("PSNR_C, average psnr:", np.mean(psnr_c))
 
-        # torchvision.utils.save_image(cover, c.IMAGE_PATH_cover + '%.5d.png' % i)
-        # torchvision.utils.save_image(secret, c.IMAGE_PATH_secret + '%.5d.png' % i)
-        # torchvision.utils.save_image(steg_img, c.IMAGE_PATH_steg + '%.5d.png' % i)
-        # torchvision.utils.save_image(secret_rev, c.IMAGE_PATH_secret_rev + '%.5d.png' % i)
+
+
 
 
 
